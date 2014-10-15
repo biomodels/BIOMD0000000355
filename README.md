@@ -1,3 +1,21 @@
+# BIOMD0000000355: Abell2011_CalciumSignaling_WithAdaptation
+
+## Installation
+
+Download this repository, and install with distutils
+
+`python setup.py install`
+
+Or, install using pip
+
+`pip install git+https://github.com/biomodels/BIOMD0000000355.git`
+
+To install a specific version (in this example, from the 2014-09-16 BioModels release)
+
+`pip install git+https://github.com/biomodels/BIOMD0000000355.git@20140916`
+
+
+# Model Notes
 
 
 This model is from the article:  
@@ -27,4 +45,5 @@ of the signaling pathway and using multiple parallel adaptive feedbacks.
 There are two models described in the paper to simulate basal and receptor
 stimulated Ca 2+ signaling. 1) No adaptive feedback (MODEL1108050000) and 2)
 with three slow adaptive feedback loops (this model: MODEL1108050001).
+
 
